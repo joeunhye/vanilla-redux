@@ -25,3 +25,4 @@ switch(action.type){
     return smth3
 }
 ```
+## string으로 바로 쓰는 대신에 const variable로 선언해서 사용하기 -> 에러 발견 용이
