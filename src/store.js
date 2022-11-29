@@ -6,7 +6,7 @@ const DELETE_TODO = "DELETE_TODO";
 const addTodo = text => ({ type: ADD_TODO, text });
 const deleteTodo = id => ({ type: DELETE_TODO, id });
 
-const reducer = (state = ["hello"], action) => {
+const reducer = (state = [], action) => {
 	switch (action.type) {
 		case ADD_TODO:
 			return [{ text: action.text, id: Date.now() }, ...state];
