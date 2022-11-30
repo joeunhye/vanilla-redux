@@ -10,6 +10,7 @@ const Home = () => {
 	};
 	//hooks
 	const todos = useSelector(state => state);
+	console.log(todos);
 	const dispatch = useDispatch();
 	const onSubmit = e => {
 		e.preventDefault();
